@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bigbox{
+            background-color: red;
+            height: 600px;
+            width: 600px;
+            position: relative;
+        }
+        .smallbox{
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+            top: 100px;
+            left: 400px;
+            position: absolute;
+        }
+        section{
+            background-color: green;
+            border-bottom: 5px black solid;
+            height: 100vh;
+            width: 100vw;
+
+        }
+
+        .boxes{
+            background-color: aqua;
+            height: 500px;
+            width: 600px;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+.boxes div{
+    height: 100px;
+width: 100px;
+border-radius: 100px;
+background-color: black;
+flex-direction: row-reverse;
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="bigbox">
+        <div class="smallbox">
+
+        </div>
+
+    </div>
+    <h1>This is Header</h1>
+
+    <div class="boxes">
+<div class="box1">1</div>
+<div class="box2">2</div>
+<div class="box3">3</div>
+<div class="box4">4</div>
+
+
+    </div>
+</body>
+</html>
